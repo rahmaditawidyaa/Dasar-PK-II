@@ -1,43 +1,89 @@
-h1{
-    color:blue
-}
-h2{
-    color:red
-}
-p{
-    color:green
-}
-body {
-    font-family: "Avenir Next";
+h1 {
+    color:red;
+    font-size:30px;
+    background-color:#f3f372;
+    height:80px;
+    width:200px;
+    font-family:serif;
   }
-  
+  p {
+    color:green;
+    font-size:20px;
+    height:50px;
+    width:100px;
+  }
+  img {
+    height:150px;
+    width:200px;
+  }
   li {
-    list-style: none;
-    float: left;
-    /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
-    
+   float: left;
+   padding:20px
   }
-  
-  .header {
-    background-color: #26d0c9;
-    color: #fff;
-    height: 90px;
+  header-logo {
+   float: left;
+   front-size: 10px;
   }
-  
-  .header-logo {
-    float: left;
-    font-size: 36px;
-    /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
-    
+  h3 {
+    color:black;
+    font-size:50px;
+    background-color:blue;
+    height:50px;
+    width:100px;
   }
-  
-  .main {
-    background-color: #bdf7f1;
-    height: 600px;
+  .selected {
+    color:red;
   }
-  
   .footer {
-    background-color: #ceccf3;
-    height: 270px;
+    color:#fff;
+    background-color:#2f5167;
+    height:120px;
+    padding:48px;
   }
-  
+  .footer-logo {
+    front-size:32px;
+    float:left;
+  }
+  .footer-list {
+    float:right;
+  }
+  .footer-list li {
+    pdding-bottom:20px
+  }
+  .main {
+    padding: 100px 80px;
+  }
+  .copy-container h2 {
+    font-size: 60 px;
+  }
+  .copy-container span {
+    color: #ff4a4a;
+  }
+  .contents {
+    height:500px
+  }
+  .selection-title {
+    border-bottom:2px solid #dee7ec; 
+  }
+  .contents {
+     height:500px;
+     margin-top:100px;
+  }
+  .section-title {
+     border-bottom:2px solid #dee7ec;
+     font-size:28px;
+     padding-bottom:15px;
+     margin-bottom:50px;
+  }
+  .contents-item {
+     float:left;
+     margin-right:40px
+  }
+  .contents-item p {
+     font-size:24;
+     margin-top:30px
+  }
+  .footer {
+     background-color:#ddd
+     height:270px
+  }
